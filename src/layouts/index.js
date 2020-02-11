@@ -14,6 +14,7 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'Sample, something' },
       ]}
     />
+    <Header />
     {children()}
   </div>
 )
