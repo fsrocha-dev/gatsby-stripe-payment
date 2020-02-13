@@ -14,10 +14,41 @@ const IndexPage = () => (
           and build apps with React and Swift.
         </p>
         <Link to="/page-2/">Watch the video</Link>
+        <div className="Logos">
+          <img
+            src={require('../images/logo-sketch.png')}
+            width="50"
+            alt="Logo Sketch"
+          />
+          <img
+            src={require('../images/logo-figma.png')}
+            width="50"
+            alt="Logo Figma"
+          />
+          <img
+            src={require('../images/logo-studio.png')}
+            width="50"
+            alt="Logo Studio"
+          />
+          <img
+            src={require('../images/logo-framer.png')}
+            width="50"
+            alt="Logo Framer"
+          />
+          <img
+            src={require('../images/logo-react.png')}
+            width="50"
+            alt="Logo React"
+          />
+          <img
+            src={require('../images/logo-swift.png')}
+            width="50"
+            alt="Logo Swift"
+          />
+        </div>
         <svg
           width="100%"
           height="172"
-          viewBox="0 0 100% 172"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
